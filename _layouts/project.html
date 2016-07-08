@@ -7,7 +7,7 @@ layout: default
 <div class="galerie">
   {% assign count = 0 %}
   {% for im in page.images %}
-  <img class="item{% if count == 0 %} on{% endif %}" src="/img/{{im}}">
+  <img class="item{% if count == 0 %} on{% endif %}" src="{{site.url}}/img/{{im}}">
   {% assign count = count + 1 %}
   {% endfor %}
   <div id="prev" class="slider-nav"><i class="icon fa fa-caret-left"></i></div><div id="next" class="slider-nav"><i class="icon fa fa-caret-right"></i></div>

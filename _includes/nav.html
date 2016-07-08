@@ -5,16 +5,16 @@
 
 <nav id="menu-attic" class="attic">
   <span class="logo">
-    <span class="logo_main"><a href="<?php echo get_site_url('siteurl'); ?>">s_sk</a></span>
+    <span class="logo_main"><a href="{{site.url}}">s_sk</a></span>
     <span class="logo_tagline">studio skaggs kennedy</span>
   </span>
 
   <div id="main-menu">
     <ul id="menu-ssk-main" class="menu">
-      <li class="menu-item{% if page.url == '/news/' %} current-menu-item{% endif %}"><a href="/news/">news</a></li>
-      <li class="menu-item{% if page.url == '/projects/' %} current-menu-item{% endif %}"><a href="/projects">projects</a></li>
-      <li class="menu-item{% if page.url == '/studio/' %} current-menu-item{% endif %}"><a href="/studio/">studio</a></li>
-      <li class="menu-item{% if page.url == '/contact/' %} current-menu-item{% endif %}"><a href="/contact/">contact</a></li>
+      <li class="menu-item{% if page.url == '/news/' %} current-menu-item{% endif %}"><a href="{{site.url}}/news/">news</a></li>
+      <li class="menu-item{% if page.url == '/projects/' %} current-menu-item{% endif %}"><a href="{{site.url}}/projects">projects</a></li>
+      <li class="menu-item{% if page.url == '/studio/' %} current-menu-item{% endif %}"><a href="{{site.url}}/studio/">studio</a></li>
+      <li class="menu-item{% if page.url == '/contact/' %} current-menu-item{% endif %}"><a href="{{site.url}}/contact/">contact</a></li>
     </ul>
   </div>
 </nav>
