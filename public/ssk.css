@@ -372,22 +372,14 @@ img.featured-image  {
 }
 .slider-nav#next { left:50%; }
 .icon {
+  color: #e5e5e5;
   position:absolute;
   top:49%;
-  left:0;
+  left:3%;
   font-size:4em;
   font-style:normal;
-  font-family:'dashicons';
 }
 .slider-nav#next .icon { left:90%; }
-.icon.left-tri:before {
-  content: "\f141";
-  color:#e5e5e5;
-}
-.icon.right-tri:before {
-  content: "\f139";
-  color:#e5e5e5;
-}
 .slider-nav:hover .icon:before { color:#333; }
 .slider-nav:hover { background-color:rgba(0,0,0,0.02); }
 .slider-nav:active .icon.left-tri { margin-left:-3px; }

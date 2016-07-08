@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+<div class="galerie">
+  {% assign count = 0 %}
+  {% for im in page.images %}
+  <img class="item{% if count == 0 %} on{% endif %}" src="/img/{{im}}">
+  {% assign count = count + 1 %}
+  {% endfor %}
+  <div id="prev" class="slider-nav"><i class="icon fa fa-caret-left"></i></div><div id="next" class="slider-nav"><i class="icon fa fa-caret-right"></i></div>
+  <div class="cf"></div>
+</div>
+
+<div class="single-project-info">
+  <ul class="project-specs">
+    <li><strong>Project: </strong>{{page.project}}</li>
+    <li><strong>Location: </strong>{{page.location}}</li>
+    <li><strong>Status: </strong>{{page.status}}</li>
+    <li><strong>Size: </strong>{{page.size}}</li>
+  </ul>
+</div>
+
+<div class="project-description">
+  {{page.content}}
+</div>
