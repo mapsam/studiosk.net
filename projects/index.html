@@ -5,7 +5,7 @@ title: projects
 
 <ul>
   {% for p in site.categories.projects %}
-  <li class="project" style="background-image:url('/img/{{p.featured_img}}')">
+  <li class="project" style="background-image:url('{{site.url}}/img/{{p.featured_img}}')">
     <a href="{{site.url}}{{p.url}}">
       <div class="project-info">
         <div class="project-title">{{p.title}}</div>
