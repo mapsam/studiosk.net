@@ -1,0 +1,24 @@
+---
+layout: default
+title: news
+---
+
+<div class="content news">
+  <div class="content-container">
+  {% for post in site.categories.news %}
+    <article class="post">
+      
+      <div class="post-title">
+        {% if post.featured_img %}
+        <a href="{{post.url}}"><img class="featured-image" src="{{post.featured_img}}"></a>
+        {% endif %}
+        <h2>{{post.title}}</h2>
+      </div>
+
+      <div class="post-content" >
+        {{post.content}}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</div>

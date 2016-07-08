@@ -1,0 +1,441 @@
+/*
+Theme Name: Studio Skaggs Kennedy 1.2
+Description: SSK Wordpress Theme
+Author: Sam Matthews
+Author URI: http://mapsam.com
+Version: 1.2
+Tags: architecture
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+*/
+
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, 
+dfn, em, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, 
+dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, 
+output, ruby, section, summary, time, mark, audio, 
+video {margin:0;padding:0;border:none;}
+
+body {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight:100;
+  font-size:0.9em;
+  text-decoration:none;
+}
+body.attic_is_open { overflow:hidden; }
+
+.main {
+  margin:0 1em;
+  overflow-x:hidden;
+}
+.projects .content-container { 
+  max-width:100%;
+  text-align: center;
+}
+
+@media (min-width: 50em) {
+  .main { margin: 0; }
+  .content { margin-left:200px; }
+  .content-container {
+    padding:45px;
+    display:block;
+    max-width:775px;
+  }
+  .projects .content-container { text-align: left; }
+}
+
+
+.container {}
+.cf:before,
+.cf:after {
+    content:" ";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+.cf {
+    *zoom:1;
+}
+
+/* * * * * * * * * * * 
+**
+**  GLOBALS
+**
+** * * * * * * * * * */
+h1, h1 a {
+  font-weight:600;
+  color:#444;
+  margin-bottom:5px;
+}
+h1 {
+  font-size:1.5em;
+}
+h1 a {
+  font-size:1.0em;
+}
+a, p a {
+  text-decoration:none;
+  color:#cc8400;
+}
+a:hover {
+  color:#a36900;
+}
+p {
+  margin-bottom:15px;
+}
+strong {
+  font-weight:900;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* * * * * * * * * * * 
+**
+**  NAVIGATION
+**
+** * * * * * * * * * */
+nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  left: 0;
+  background: #333;
+  left: -65%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.6);
+  -webkit-transition: .2s;
+     -moz-transition: .2s;
+      -ms-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
+  z-index: -1;
+  text-align: right;
+}
+nav.open {
+  left: 0;
+  z-index: 10;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+nav ul li {
+  width: 100%;
+  border-bottom: 1px solid #444;
+}
+nav ul li:nth-child(1) { border-top: 1px solid #444; }
+nav ul li a {
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  font-size: .95em;
+  color: #f6f6f6;
+  text-shadow: 1px 1px 2px #000;
+  letter-spacing: 0.15em;
+}
+#menu-button {
+  float: right;
+  border: none;
+  font-size: 2em;
+  color: #333;
+  background-color: transparent;
+  line-height: 1.2em;
+}
+#menu-button:focus { outline: none; }
+#menu-button:before {
+  content: "\f333";
+  font-family: "Dashicons";
+}
+#menu-button.open:before { content: "\f158"; }
+
+@media (min-width: 50em) {
+  #menu-button { display:none; }
+  nav {
+    width:200px;
+    padding-right:20px;
+    border-right:1px solid #e5e5e5;
+    background-color: transparent;
+    background: none;
+    box-shadow: none;
+    left: 0;
+    z-index: 10;
+  }
+  #main-menu {}
+  #main-menu ul {
+    text-align:right;
+  }
+  #main-menu ul li {
+    margin-bottom: .3em;
+    border: none;
+  }
+  #main-menu li a {
+    text-decoration:none;
+    color:#000;
+    font-weight:100;
+    padding: 0;
+    text-shadow: none;
+    display: inline;
+  }
+  nav ul ul {
+    display:none;
+    margin:5px 0;
+    padding:5px 8px 5px 0;
+    border-right:solid 1px #c0c0c0;
+  }
+  .current-menu-item ul {
+    display:block;
+  }
+  .current-menu-item:before {
+    content:'_';
+  }
+  .current-menu-item a {
+    color:#cc8400 !important;
+  }
+  .current-menu-item ul li a {
+    color:#000;
+  }
+  nav ul ul li a:hover {
+    color:#cc8400;
+  }
+}
+
+/* * * * * * * * * * * 
+**
+**  HEADER & LOGO
+**
+** * * * * * * * * * */
+.logo,
+.logo_main,
+.logo_tagline { display:block; }
+
+.logo {
+  margin: 10px;
+  color: #f6f6f6;
+}
+.logo_main {
+  font-size: 2em;
+  font-weight: 500;
+}
+.logo_main a { color: #f6f6f6; }
+.logo_tagline {}
+
+header { margin: 1em 0; }
+header .logo_main { float: left; }
+header .logo_main a { color: #111; }
+
+@media (min-width: 50em) {
+  .logo,
+  .logo_main a { color: #111; }
+  .logo { 
+    font-size: 1.3em;
+    margin: 2em 0 2em;
+  }
+  .logo_tagline { font-size: .8em; }
+  header { display: none; }
+}
+
+
+/* * * * * * * * * * * 
+**
+**  SINGLE POST
+**
+** * * * * * * * * * */
+.post {
+  margin-bottom:75px;
+  font-size:.9em;
+}
+.post-date {
+  text-transform:uppercase;
+  font-size:0.8em;
+  float:right;
+}
+.post h2 {
+  font-size:1.1em;
+  text-transform:uppercase;
+  margin:.35em 0;
+}
+.post p {
+  text-align:justify;
+}
+img.featured-image  {
+  width:100%;
+  height:auto;
+}
+
+/* * * * * * * * * * * 
+**
+**  PROJECT LISTINGS
+**
+** * * * * * * * * * */
+.content.projects {
+  width:auto;
+  max-width:1200px;
+}
+.project {
+  display:inline-block;
+  position:relative;
+  width:300px;
+  height:200px;
+  /*margin:0 6px 6px 0;*/
+  background:center center no-repeat;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+  overflow:hidden;
+}
+.project-info {
+  position:absolute;
+  display:table;
+  width:100%;
+  height:100%;
+  text-align:center;
+  box-sizing:border-box;  
+  -moz-box-sizing:border-box; 
+  -webkit-box-sizing:border-box;
+  padding:30px;
+}
+.project-title {
+  display:none;
+  vertical-align: middle;
+  color:#fff;
+  font-weight:400;
+  text-transform: uppercase;
+  letter-spacing:.15em;
+  font-size:.9em;
+}
+.project:hover .project-info {
+  -webkit-transition: .2s;
+     -moz-transition: .2s;
+      -ms-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
+  background:rgba(0,0,0,.8);
+}
+.project:hover .project-title {
+  display:table-cell;
+  -webkit-transition: .2s;
+     -moz-transition: .2s;
+      -ms-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
+}
+
+/* different project types */
+.residential {}
+.commercial {}
+/* add more! */
+
+/* * * * * * * * * * * 
+**
+**  SLIDER
+**
+** * * * * * * * * * */
+.galerie {
+  width:100%;
+  padding-bottom:60.6%;
+  position:relative;
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.galerie img.item {
+  position:absolute;
+  height:100%;
+  width:auto;
+  background:center center no-repeat;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+}
+.slider-nav {
+  position:absolute;
+  top:0;
+  width:50%;
+  height:100%;
+  font-size:.7em;
+  text-transform:uppercase;
+  font-weight:400;
+  cursor:pointer;
+}
+.slider-nav#next { left:50%; }
+.icon {
+  position:absolute;
+  top:49%;
+  left:0;
+  font-size:4em;
+  font-style:normal;
+  font-family:'dashicons';
+}
+.slider-nav#next .icon { left:90%; }
+.icon.left-tri:before {
+  content: "\f141";
+  color:#e5e5e5;
+}
+.icon.right-tri:before {
+  content: "\f139";
+  color:#e5e5e5;
+}
+.slider-nav:hover .icon:before { color:#333; }
+.slider-nav:hover { background-color:rgba(0,0,0,0.02); }
+.slider-nav:active .icon.left-tri { margin-left:-3px; }
+.slider-nav:active .icon.right-tri { margin-left:3px; }
+
+/* * * * * * * * * * * 
+**
+**  PROJECTS
+**
+** * * * * * * * * * */
+.project-specs {
+  list-style-type: none;
+  margin-left:0;
+  margin-bottom:15px;
+}
+.project-specs li {
+  font-size:.9em;
+  margin-bottom:0;
+}
+.project-description {
+ font-size:.9em;
+}
+
+/* * * * * * * * * * * 
+**
+**  LANDING PAGE
+**
+** * * * * * * * * * */
+#ssk {
+  font-size:6em;
+  color:#999;
+  font-weight:500;
+  text-decoration:none;
+}
+#centered {
+  width: 300px;
+  height: 110px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.trans {
+  opacity:0;
+}
+#underscore {
+  color:#cc8400;
+}
