@@ -3,6 +3,10 @@
 
 {% include head.html %}
 
+{% if page.url != '/' %}
+  {% include nav.html %}
+{% endif %}
+
 <div class="content {{page.title}}">
   <div class="content-container">
     {{content}}
