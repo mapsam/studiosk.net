@@ -33,6 +33,9 @@ body.attic_is_open { overflow:hidden; }
 	margin:0 1em;
 	overflow-x:hidden;
 }
+.content-container {
+	padding: 10px;
+}
 .projects .content-container {
 	max-width:100%;
 	text-align: center;
@@ -113,7 +116,7 @@ nav {
 	bottom: 0;
 	width: 60%;
 	left: 0;
-	background: url(assets/texture-noise-100-333.png) repeat;
+	background: #333;
 	left: -65%;
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -159,10 +162,10 @@ nav ul li a {
 }
 #menu-button:focus { outline: none; }
 #menu-button:before {
-	content: "\f333";
-	font-family: "Dashicons";
+	content: "\f0c9";
+	font-family: "FontAwesome";
 }
-#menu-button.open:before { content: "\f158"; }
+#menu-button.open:before { content: "\f00d"; }
 
 @media (min-width: 50em) {
 	#menu-button { display:none; }
@@ -231,6 +234,7 @@ nav ul li a {
 .logo_main {
 	font-size: 2em;
 	font-weight: 500;
+	margin-left: 10px
 }
 .logo_main a { color: #f6f6f6; }
 .logo_tagline {}
