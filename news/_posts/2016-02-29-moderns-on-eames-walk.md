@@ -3,7 +3,7 @@ title: Moderns on Eames Walk
 permalink: /projects/moderns-on-eames-walk
 layout: post
 date: 2016-02-29 15:16:22
-link: http://www.moderns-tbd.com/Moderns-on-Eames-Walk/
+link: /projects/moderns-on-eames-walk
 featured_image: /img/2016/10/160229_Eames_start-con_161002-resized.jpg
 ---
 

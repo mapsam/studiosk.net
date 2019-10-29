@@ -8,7 +8,7 @@ title: news
 
     <div class="post-title">
       {% if post.featured_image %}
-      <a href="{{site.url}}{{post.link}}"><img class="featured-image" src="{{site.url}}{{post.featured_image}}"></a>
+      <a href="{{post.link}}"><img class="featured-image" src="{{site.url}}{{post.featured_image}}"></a>
       {% endif %}
       <h2>{{post.title}}</h2>
     </div>

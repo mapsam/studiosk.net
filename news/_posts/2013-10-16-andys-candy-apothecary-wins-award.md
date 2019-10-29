@@ -3,7 +3,7 @@ title: Andy's Candy Apothecary wins award !
 permalink: /projects/andys-candy-apothecary-wins-award
 layout: post
 date: 2013-10-16 04:49:43
-link: /projects/aca-andys-candy-apothecary/
+link: /projects/andys-candy-apothecary
 featured_image: /img/2013/10/pharmacy.jpg
 ---
 
