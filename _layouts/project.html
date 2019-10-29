@@ -6,11 +6,11 @@ layout: default
 
 <div class="galerie">
   {% assign count = 0 %}
-  {% for im in page.images %}
-  <img class="item{% if count == 0 %} on{% endif %}" src="{{site.url}}/img/{{im}}">
-  {% assign count = count + 1 %}
+  {% for im in page.gallery %}
+  <img class="item{% if count == 0 %} on{% endif %}" src="{{site.url}}{{im}}">
+  {% assign count = 99 %}
   {% endfor %}
-  <div id="prev" class="slider-nav"><i class="icon fa fa-caret-left"></i></div><div id="next" class="slider-nav"><i class="icon fa fa-caret-right"></i></div>
+  <div id="prev" class="slider-nav"><i class="icon fas fa-arrow-left"></i></div><div id="next" class="slider-nav"><i class="icon fas fa-arrow-right"></i></div>
   <div class="cf"></div>
 </div>
 

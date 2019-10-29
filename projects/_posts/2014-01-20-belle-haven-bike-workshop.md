@@ -1,18 +1,24 @@
 ---
 title: Belle Haven Bike Workshop
+permalink: /projects/belle-haven-bike-workshop
 layout: project
-project: Belle Haven Bike Workshop + Community Gathering Space
-status: Design Development
-location: Menlo Park, CA
-size: 850 sf
-images:
-  - boysgirls_1.jpg
-  - boysgirls_2.jpg
-  - boysgirls_3.jpg
-  - boysgirls_4.jpg
-  - bg-closed.png
-  - bg-open.png
-featured_img: bg-sketch-models.png
+date: 2014-01-20 00:00:27
+featured_image: /img/2014/01/boysgirls_featured.jpg
+
+project: "Belle Haven Bike Workshop + Community Gathering Space"
+status: "Design Development"
+location: "Menlo Park, CA"
+size: "850 sf"
+collaborators: "IDEO, Facebook Bike Hub, Limelab, Silicon Valley Bicycle Coalition"
+
+gallery:
+  - /img/2014/01/boysgirls_1.jpg
+  - /img/2014/01/boysgirls_2.jpg
+  - /img/2014/01/boysgirls_3.jpg
+  - /img/2014/01/boysgirls_4.jpg
+  - /img/2014/07/bg-closed.png
+  - /img/2014/07/bg-open.png
+  - /img/2014/01/bg-sketch-models.png
 ---
 
 The Belle Haven Bike Shop is a youth run bike repair and training project built from three repurposed shipping containers for the Belle Haven chapter of the Boys and Girls Clubs of the Peninsula. The bike shop will serve as both a community gathering space and an employment pathway for teens to jobs in local bike shops, transportation departments at local technology partners, and as certified instructors prepared to teach bicycle safety to both children and adults.

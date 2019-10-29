@@ -1,7 +1,10 @@
 ---
 title: Plant Organic restaurant opens in Burlingame, California
+permalink: /projects/plant-organic-burlingame-location-opens
 layout: post
-permalink: /plant-organic-burlingame-location-opens/
-project_link: /projects/plant-organic-restaurant-burlingame/
-image: plant-post.jpg
+date: 2013-06-01 12:00:04
+link: /projects/plant-organic-restaurant-burlingame/
+featured_image: /img/2013/06/1-TaiyoWatanabe-1Q5A5776.jpg
 ---
+
+

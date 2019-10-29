@@ -2,3 +2,4 @@
 name: studiosk
 description: Studio Skaggs Kennedy
 permalink: /:categories/:title/
+baseurl: /

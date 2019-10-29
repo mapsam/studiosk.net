@@ -1,18 +1,22 @@
 ---
 title: Off Grid Prototype
+permalink: /projects/grid-prototype
 layout: project
-project: Off Grid Prototype
-status: Design Development
-location: Sonoma, CA + Anywhere
-size: 1,800 sf
-images:
-  - OGP-01_elevation.jpg
-  - OGP-06_sketch.jpg
-  - OGP-05_source.jpg
-  - OGP-03_modelfront.jpg
-  - OGP-04_modelback.jpg
-  - OGP-02_plan.jpg
-featured_img: OGP-featured.jpg
+date: 2013-01-19 00:00:31
+featured_image: /img/2014/11/OGP-featured.jpg
+
+project: "Off Grid Prototype"
+status: "Design Development"
+location: "Sonoma, CA + Anywhere"
+size: "1,800 sf"
+
+gallery:
+  - /img/2014/11/OGP-01_elevation.jpg
+  - /img/2014/11/OGP-06_sketch.jpg
+  - /img/2014/11/OGP-05_source.jpg
+  - /img/2014/11/OGP-04_modelback.jpg
+  - /img/2014/11/OGP-03_modelfront.jpg
+  - /img/2014/11/OGP-02_plan.jpg
 ---
 
 A prototype for a prefabricated off the grid house. 

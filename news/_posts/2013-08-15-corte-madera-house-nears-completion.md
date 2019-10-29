@@ -1,7 +1,10 @@
 ---
-title: Corte Madera House nears completion
+title: Corte Madera House nears completion 
+permalink: /projects/corte-madera-house-nears-completion
 layout: post
-permalink: /corte-madera-house-nears-completion/
-project_link: /projects/corte-madera-residence/
-image: corte-madera-news.jpg
+date: 2013-08-15 12:00:29
+link: /projects/corte-madera-residence/
+featured_image: /img/2013/10/7.jpg
 ---
+
+

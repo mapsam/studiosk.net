@@ -1,9 +1,10 @@
 ---
 title: s_sk competes for contemporary art center in Moscow
+permalink: /projects/s_sk-competes-for-contemporary-art-center-in-moscow
 layout: post
-permalink: /s_sk-competes-for-contemporary-art-center-in-moscow/
-project_link: /projects/national-center-for-contemporary-art/
-image: NCCA_news.jpg
+date: 2013-10-01 12:00:36
+link: /projects/national-center-for-contemporary-art/
+featured_image: /img/2013/10/NCCA_news.jpg
 ---
 
 Studio_sk in partnership with <a href="http://www.warrenoffice.com/" target="_blank">WORD</a>, competed for the commission of a major new arts center in Moscow. The design for the 450,000 sf facility centered on the accommodation of a future permanent collection and the staging of major temporary exhibitions of contemporary Russian art.

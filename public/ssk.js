@@ -1,15 +1,5 @@
 jQuery(document).ready(function($){
 
-  console.log('js loaded');
-
-  blink();
-  // blinking s_sk on front-page.php
-  function blink() {    
-    setInterval(function(){
-      $('#underscore').toggleClass('trans');
-    },800);
-  }
-
   // Project Info
   $('.project-info-toggle').on('click', function(){
     $('.project-info-collapse').slideToggle(200);
@@ -19,7 +9,7 @@ jQuery(document).ready(function($){
     } else {
       $(this).text('Project Info');
     }
-  }); 
+  });
 
   ///////////////////////////////////
   // BANNER FUNCTIONS
@@ -34,7 +24,7 @@ jQuery(document).ready(function($){
   $('#prev').on('click', function(){
     prev();
   });
-  
+
   function rotateBanner(num){
     $('.galerie .on').removeClass('on').fadeOut(speed);
     $('.galerie .item').eq(num).addClass('on').fadeIn(speed);
@@ -101,7 +91,7 @@ jQuery(document).ready(function($){
     },
 
     handleTouchStart: function(event) {
-      menu.xDown = event.touches[0].clientX;                                      
+      menu.xDown = event.touches[0].clientX;
       menu.yDown = event.touches[0].clientY;
     },
 
@@ -110,7 +100,7 @@ jQuery(document).ready(function($){
         return;
       }
 
-      var xUp = event.touches[0].clientX;                                    
+      var xUp = event.touches[0].clientX;
       var yUp = event.touches[0].clientY;
 
       var xDiff = menu.xDown - xUp;
@@ -119,28 +109,26 @@ jQuery(document).ready(function($){
       if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
         document.body.className = 'attic_is_open'; // prevent vertical scroll during open
         if ( xDiff > 0 ) {
-          if (menu.swipeMenuState) menu.close(); 
+          if (menu.swipeMenuState) menu.close();
         } else {
           if (!menu.swipeMenuState) menu.open();
-        }                       
+        }
       } else {
         if ( yDiff > 0 ) {
-          /* up swipe, do nothing */ 
-        } else { 
+          /* up swipe, do nothing */
+        } else {
           /* down swipe, do nothing */
-        }                                                                 
+        }
       }
 
       /* reset values */
       menu.xDown = null;
-      menu.yDown = null; 
+      menu.yDown = null;
     }
   }
 
   // screen swiping
   document.addEventListener('touchstart', menu.handleTouchStart, false);
-  menu.button.addEventListener('click', menu.toggle, false);        
+  menu.button.addEventListener('click', menu.toggle, false);
   document.addEventListener('touchmove', menu.handleTouchMove, false);
-
-
 });
