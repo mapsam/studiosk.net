@@ -1,6 +1,6 @@
 ---
 title: Andy's Candy Apothecary wins award !
-permalink: /projects/andys-candy-apothecary-wins-award
+permalink: /news/andys-candy-apothecary-wins-award
 layout: post
 date: 2013-10-16 04:49:43
 link: /projects/andys-candy-apothecary

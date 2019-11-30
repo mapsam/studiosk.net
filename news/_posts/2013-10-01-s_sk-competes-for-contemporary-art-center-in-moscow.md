@@ -1,6 +1,6 @@
 ---
 title: s_sk competes for contemporary art center in Moscow
-permalink: /projects/s_sk-competes-for-contemporary-art-center-in-moscow
+permalink: /news/s_sk-competes-for-contemporary-art-center-in-moscow
 layout: post
 date: 2013-10-01 12:00:36
 link: /projects/national-center-for-contemporary-art/

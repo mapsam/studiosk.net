@@ -1,6 +1,6 @@
 ---
 title: Way Station
-permalink: /projects/way-station
+permalink: /news/way-station
 layout: post
 date: 2018-10-05 16:57:23
 link: /projects/waystation

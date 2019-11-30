@@ -1,6 +1,6 @@
 ---
 title: Guggenheim Helsinki
-permalink: /projects/guggenheim-helsinki
+permalink: /news/guggenheim-helsinki
 layout: post
 date: 2015-01-01 01:32:10
 link: /projects/guggenheim-helsinki/

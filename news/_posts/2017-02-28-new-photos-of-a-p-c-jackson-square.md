@@ -1,6 +1,6 @@
 ---
 title: A.P.C. Jackson Square
-permalink: /projects/new-photos-of-a-p-c-jackson-square
+permalink: /news/new-photos-of-a-p-c-jackson-square
 layout: post
 date: 2017-02-28 04:26:14
 link: /projects/apc-jackson-square

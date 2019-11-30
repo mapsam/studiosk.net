@@ -1,6 +1,6 @@
 ---
 title: Native Juice
-permalink: /projects/native-juice
+permalink: /news/native-juice
 layout: post
 date: 2015-03-10 22:05:59
 link: /projects/native-juice

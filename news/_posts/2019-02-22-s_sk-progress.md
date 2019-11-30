@@ -1,6 +1,6 @@
 ---
 title: S_SK Progress
-permalink: /projects/s_sk-progress
+permalink: /news/s_sk-progress
 layout: post
 date: 2019-02-22 16:44:56
 link: /projects

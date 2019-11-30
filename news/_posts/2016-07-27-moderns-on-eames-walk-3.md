@@ -1,6 +1,6 @@
 ---
 title: Moderns on Eames Walk
-permalink: /projects/moderns-on-eames-walk-3
+permalink: /news/moderns-on-eames-walk-3
 layout: post
 date: 2016-07-27 15:22:15
 link: /projects

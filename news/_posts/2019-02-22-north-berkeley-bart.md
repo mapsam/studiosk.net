@@ -1,6 +1,6 @@
 ---
 title: North Berkeley BART
-permalink: /projects/north-berkeley-bart
+permalink: /news/north-berkeley-bart
 layout: post
 date: 2019-02-22 16:46:22
 link: /projects

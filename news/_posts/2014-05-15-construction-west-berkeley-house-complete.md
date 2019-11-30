@@ -1,6 +1,6 @@
 ---
 title: Construction on West Berkeley House complete
-permalink: /projects/construction-west-berkeley-house-complete
+permalink: /news/construction-west-berkeley-house-complete
 layout: post
 date: 2014-05-15 18:00:22
 link: /projects/west-berkeley-house/

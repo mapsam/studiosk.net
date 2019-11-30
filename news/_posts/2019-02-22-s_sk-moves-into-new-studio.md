@@ -1,6 +1,6 @@
 ---
 title: S_SK moves! into new studio.
-permalink: /projects/s_sk-moves-into-new-studio
+permalink: /news/s_sk-moves-into-new-studio
 layout: post
 date: 2019-02-22 16:43:42
 link: /projects

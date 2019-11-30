@@ -1,6 +1,6 @@
 ---
 title: APC_San Francisco
-permalink: /projects/apc_san-francisco-2
+permalink: /news/apc_san-francisco-2
 layout: post
 date: 2016-03-10 15:10:46
 link: /projects/apc-jackson-square/

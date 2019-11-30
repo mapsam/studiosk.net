@@ -1,6 +1,6 @@
 ---
 title: Native Juice Co
-permalink: /projects/new-photos-of-native-juice-co-cafe-in-the-financial-district-of-san-francisco
+permalink: /news/new-photos-of-native-juice-co-cafe-in-the-financial-district-of-san-francisco
 layout: post
 date: 2017-06-25 17:36:59
 link: /projects/native-juice/

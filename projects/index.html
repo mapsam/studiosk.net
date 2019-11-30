@@ -1,9 +1,10 @@
 ---
 layout: default
 title: projects
+content_class: projects
 ---
 
-<ul>
+<ul class="projects">
   {% for p in site.categories.projects %}
   <li class="project" style="background-image:url('{{site.url}}{{p.featured_image}}')">
     <a href="{{site.url}}{{p.url}}">

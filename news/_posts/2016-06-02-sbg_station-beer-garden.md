@@ -1,6 +1,6 @@
 ---
 title: SBG_Station Beer Garden
-permalink: /projects/sbg_station-beer-garden
+permalink: /news/sbg_station-beer-garden
 layout: post
 date: 2016-06-02 15:23:55
 link: /projects
