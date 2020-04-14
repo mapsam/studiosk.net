@@ -5,12 +5,19 @@ layout: project
 date: 2017-06-25 17:44:23
 featured_image: /img/2017/06/bd2-featured.jpg
 
-project: "Moderns on Eames Walk"
-status: "Built"
-location: "West Sacramento, CA"
-size: "60,000 sf"
-team: "Developer: Fulcrum Property, Contractor: Sunseri Associates; Structural: Harris and Sloan; Civil: PSOMAS; Landscape: Quadriga; Electrical: HCS Engineering, Inc.; Mechanical & Plumbing: Alexander Scheflo & Associates, Inc. Photography: 5K Photography"
-project website: "http://www.moderns-tbd.com/Moderns-on-Eames-Walk/"
+specs:
+  - key: project
+    value: "Moderns on Eames Walk"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "West Sacramento, CA"
+  - key: size
+    value: "60,000 sf"
+  - key: team
+    value: "Developer: Fulcrum Property, Contractor: Sunseri Associates; Structural: Harris and Sloan; Civil: PSOMAS; Landscape: Quadriga; Electrical: HCS Engineering, Inc.; Mechanical & Plumbing: Alexander Scheflo & Associates, Inc. Photography: 5K Photography"
+  - key: project website
+    value: "http://www.moderns-tbd.com/Moderns-on-Eames-Walk/"
 
 gallery:
   - /img/2017/06/1Moderns-19-c.jpg

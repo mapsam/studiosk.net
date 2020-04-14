@@ -5,11 +5,17 @@ layout: project
 date: 2007-08-02 17:58:39
 featured_image: /img/2014/08/bataan-timelapse.png
 
-project: "West Berkeley House"
-status: "Completed"
-location: "Berkeley, CA"
-size: "1,112 sf"
-collaborators: "Substrate Inc., JR electric, Aaron Jackson Construction"
+specs:
+  - key: project
+    value: "West Berkeley House"
+  - key: status
+    value: "Completed"
+  - key: location
+    value: "Berkeley, CA"
+  - key: size
+    value: "1,112 sf"
+  - key: collaborators
+    value: "Substrate Inc., JR electric, Aaron Jackson Construction"
 
 gallery:
   - /img/2014/08/912-Bataan-before-after_Page_01.jpg

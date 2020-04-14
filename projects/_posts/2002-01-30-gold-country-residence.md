@@ -5,12 +5,19 @@ layout: project
 date: 2002-01-30 23:04:16
 featured_image: /img/2015/01/gold_featured.jpg
 
-project: "Gold Country Residence"
-status: "Built"
-location: "Murphys, CA"
-size: "1,750 sf"
-firm: "CCS Architecture"
-role: "Lead Designer/Project Manager"
+specs:
+  - key: project
+    value: "Gold Country Residence"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Murphys, CA"
+  - key: size
+    value: "1,750 sf"
+  - key: firm
+    value: "CCS Architecture"
+  - key: role
+    value: "Lead Designer/Project Manager"
 
 gallery:
   - /img/2015/01/gold_1.jpg

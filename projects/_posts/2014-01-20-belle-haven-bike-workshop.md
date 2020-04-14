@@ -5,11 +5,17 @@ layout: project
 date: 2014-01-20 00:00:27
 featured_image: /img/2014/01/boysgirls_featured.jpg
 
-project: "Belle Haven Bike Workshop + Community Gathering Space"
-status: "Design Development"
-location: "Menlo Park, CA"
-size: "850 sf"
-collaborators: "IDEO, Facebook Bike Hub, Limelab, Silicon Valley Bicycle Coalition"
+specs:
+  - key: project
+    value: "Belle Haven Bike Workshop + Community Gathering Space"
+  - key: status
+    value: "Design Development"
+  - key: location
+    value: "Menlo Park, CA"
+  - key: size
+    value: "850 sf"
+  - key: collaborators
+    value: "IDEO, Facebook Bike Hub, Limelab, Silicon Valley Bicycle Coalition"
 
 gallery:
   - /img/2014/01/boysgirls_1.jpg

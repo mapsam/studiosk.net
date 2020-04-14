@@ -5,11 +5,17 @@ layout: project
 date: 2017-10-30 04:59:24
 featured_image: /img/2017/10/featured_waystation.jpg
 
-project: "Way Station"
-status: "Built"
-location: "Fairfax, CA"
-size: "8,000 sf"
-photograph: "Konstrukt Photo"
+specs:
+  - key: project
+    value: "Way Station"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Fairfax, CA"
+  - key: size
+    value: "8,000 sf"
+  - key: photograph
+    value: "Konstrukt Photo"
 
 gallery:
   - /img/2017/10/1_WayStation.jpg

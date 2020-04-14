@@ -5,13 +5,21 @@ layout: project
 date: 2007-06-01 16:46:45
 featured_image: /img/2014/10/VH-overview.jpg
 
-project: "Valley Hi-North Laguna Library"
-status: "Built"
-location: "Sacramento, CA"
-size: "20,500 sf"
-awards: "2011 Design Excellence Award from AIA San Francisco; LEED Gold Standard"
-firm: "Noll and Tam Architects"
-role: "Designer"
+specs:
+  - key: project
+    value: "Valley Hi-North Laguna Library"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Sacramento, CA"
+  - key: size
+    value: "20,500 sf"
+  - key: awards
+    value: "2011 Design Excellence Award from AIA San Francisco; LEED Gold Standard"
+  - key: firm
+    value: "Noll and Tam Architects"
+  - key: role
+    value: "Designer"
 
 gallery:
   - /img/2014/10/VH-1-ext-entrance.jpg

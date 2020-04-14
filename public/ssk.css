@@ -450,6 +450,10 @@ section {
 .project-description {
   /*font-size:.9em; */
 }
+.spec-key {
+	font-weight: bold;
+	text-transform: capitalize;
+}
 
 /* * * * * * * * * * *
 **

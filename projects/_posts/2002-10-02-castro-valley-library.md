@@ -5,13 +5,21 @@ layout: project
 date: 2002-10-02 17:16:30
 featured_image: /img/2014/10/CV-overview.jpg
 
-project: "Castro Valley Library"
-status: "Built"
-location: "Castro Valley, CA"
-size: "34,000 sf"
-award: "LEED Gold Rating"
-role: "Designer"
-firm: "Noll and Tam Architects"
+specs:
+  - key: project
+    value: "Castro Valley Library"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Castro Valley, CA"
+  - key: size
+    value: "34,000 sf"
+  - key: award
+    value: "LEED Gold Rating"
+  - key: role
+    value: "Designer"
+  - key: firm
+    value: "Noll and Tam Architects"
 
 gallery:
   - /img/2014/10/CV-1-ext-sky.jpg

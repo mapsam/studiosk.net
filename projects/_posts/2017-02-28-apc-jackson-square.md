@@ -5,15 +5,25 @@ layout: project
 date: 2017-02-28 01:07:04
 featured_image: /img/2017/02/APC_Jackson-Sq_featured.jpg
 
-project: "A.P.C. Jackson Square"
-status: "Built"
-location: "San Francisco, CA"
-size: "1250 SF"
-executive architect: "Studio Skaggs Kennedy"
-architect: "Laurent Deroo Architecte, Paris"
-mep: "Building Solutions Group"
-general contractor: "Michilli Construction"
-phototgraphy: "Taiyo Watanabe Architecture Photography"
+specs:
+  - key: project
+    value: "A.P.C. Jackson Square"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "San Francisco, CA"
+  - key: size
+    value: "1250 SF"
+  - key: executive architect
+    value:  "Studio Skaggs Kennedy"
+  - key: architect
+    value: "Laurent Deroo Architecte, Paris"
+  - key: mep
+    value: "Building Solutions Group"
+  - key: general contractor
+    value: "Michilli Construction"
+  - key: phototgraphy
+    value: "Taiyo Watanabe Architecture Photography"
 
 gallery:
   - /img/2017/02/APC_Jackson-Sq_1.jpg

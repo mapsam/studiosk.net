@@ -5,12 +5,19 @@ layout: project
 date: 2002-01-30 22:45:24
 featured_image: /img/2015/01/milpitas_featured.jpg
 
-project: "Barbara Lee Senior Center "
-status: "Built"
-location: "Milpitas, CA"
-size: "34,000 sf"
-firm: "Noll and Tam Architects"
-role: "Designer"
+specs:
+  - key: project
+    value: "Barbara Lee Senior Center "
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Milpitas, CA"
+  - key: size
+    value: "34,000 sf"
+  - key: firm
+    value: "Noll and Tam Architects"
+  - key: role
+    value: "Designer"
 
 gallery:
   - /img/2015/01/milpitas_3.jpg

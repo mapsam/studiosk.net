@@ -5,11 +5,17 @@ layout: project
 date: 2010-07-26 16:48:04
 featured_image: /img/2014/07/NCCA_news.jpg
 
-name: "National Center for Contemporary Art"
-status: "Competition"
-location: "Moscow, Russia"
-size: "450,000 sf"
-collaborators: "Warren Office for Research and Design, Katya Tylevich – art consulting, Luminesce – lighting, Lydia  Bryans – translation."
+specs:
+  - key: name
+    value: "National Center for Contemporary Art"
+  - key: status
+    value: "Competition"
+  - key: location
+    value: "Moscow, Russia"
+  - key: size
+    value: "450,000 sf"
+  - key: collaborators
+    value: "Warren Office for Research and Design, Katya Tylevich – art consulting, Luminesce – lighting, Lydia  Bryans – translation."
 
 gallery:
   - /img/2010/07/NCCA_1.jpg
@@ -24,7 +30,7 @@ gallery:
 It is a place for the rebirth of a new Russian art and the redefinition of global art.
 A place where the art of today can co-exist and learn from the art of the past.
 
-<strong>The National Center for Contemporary Art</strong> is not only a space for the current collection but a place and space to develop new curatorial possibilities, a new way to see the evolving art of Russia. 
+<strong>The National Center for Contemporary Art</strong> is not only a space for the current collection but a place and space to develop new curatorial possibilities, a new way to see the evolving art of Russia.
 
 <strong>The NCCA is not a closed door, not a member’s only institution</strong>, not a precinct unto itself. It is a place of participation, with the city, with the district and neighborhood, with the art world and with the people. It is a place for art to challenge, not entertain, for art to provoke, for art to require action not submission.
 
@@ -32,7 +38,7 @@ A place where the art of today can co-exist and learn from the art of the past.
 
 <strong>The vision of the Center</strong> is to connect the exhibition spaces found in a traditional museum with the social and educational functions needed to attract all types of cultural visitors. These connections extend beyond the realm of the center to the adjacent Circle Park and ultimately to the urban fabric of Moscow.
 
-<strong>The urban design</strong> of the NCCA and the greater site started with 3 fundamental operations. Orient program to the park and the metro station area. Connect to street but also raise the public plane to allow Circle Park to bridge the street fronting the site and provide 2nd a vertical element to mediate the view of the backside of the adjacent Avia commercial project but also to redefine and emphasize the role of culture in this developing district with an element visible on the scale of the city. 
+<strong>The urban design</strong> of the NCCA and the greater site started with 3 fundamental operations. Orient program to the park and the metro station area. Connect to street but also raise the public plane to allow Circle Park to bridge the street fronting the site and provide 2nd a vertical element to mediate the view of the backside of the adjacent Avia commercial project but also to redefine and emphasize the role of culture in this developing district with an element visible on the scale of the city.
 
 <strong>Conceptually</strong> this tower mass reaches up and out to the developing urban district while the low horizontal mass stays connected to the street and the life of the public realm. Furthermore this public area, The Park Circle, becomes an organizing element for future development around the Center for Art.
 

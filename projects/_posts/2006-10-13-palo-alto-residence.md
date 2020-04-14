@@ -5,13 +5,21 @@ layout: project
 date: 2006-10-13 16:58:10
 featured_image: /img/2014/10/FH-overview.jpg
 
-project: "Palo Alto Residence"
-status: "Built"
-location: "Palo Alto, CA"
-size: "5,800 sf"
-team: "Contractor: K Welton Construction (www.kwelton.com), Structural: Weir Andrewson, Civil: Giuliani & Kull, Landscape: John Greenle / CCS Architecture"
-firm: "CCS Architecture"
-role: "Lead Designer/Project Manager"
+specs:
+  - key: project
+    value: "Palo Alto Residence"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Palo Alto, CA"
+  - key: size
+    value: "5,800 sf"
+  - key: team
+    value: "Contractor: K Welton Construction (www.kwelton.com), Structural: Weir Andrewson, Civil: Giuliani & Kull, Landscape: John Greenle / CCS Architecture"
+  - key: firm
+    value: "CCS Architecture"
+  - key: role
+    value: "Lead Designer/Project Manager"
 
 gallery:
   - /img/2014/10/FH-01.jpg

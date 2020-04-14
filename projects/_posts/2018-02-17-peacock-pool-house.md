@@ -5,11 +5,17 @@ layout: project
 date: 2018-02-17 23:47:52
 featured_image: /img/2018/02/pph-featured.jpg
 
-project: "Peacock Pool House"
-status: "Built"
-location: "San Rafael, CA"
-size: "4,000 sf"
-team: "Contractor: Jungsten Construction"
+specs:
+  - key: project
+    value: "Peacock Pool House"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "San Rafael, CA"
+  - key: size
+    value: "4,000 sf"
+  - key: team
+    value: "Contractor: Jungsten Construction"
 
 gallery:
   - /img/2018/02/pph-garden_path.jpg

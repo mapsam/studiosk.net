@@ -5,12 +5,19 @@ layout: project
 date: 2007-07-15 05:13:59
 featured_image: /img/2017/10/mill-valley-featured.jpg
 
-project: "Mill Valley Residence"
-status: "Built"
-location: "Mill Valley, CA"
-size: "5,000 sf"
-firm: "CCS Architecture"
-role: "Lead Designer/Project Manager"
+specs:
+  - key: project
+    value: "Mill Valley Residence"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Mill Valley, CA"
+  - key: size
+    value: "5,000 sf"
+  - key: firm
+    value: "CCS Architecture"
+  - key: role
+    value: "Lead Designer/Project Manager"
 
 gallery:
   - /img/2017/10/1-martin32.jpg

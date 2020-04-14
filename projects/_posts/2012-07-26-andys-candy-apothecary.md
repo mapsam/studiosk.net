@@ -5,11 +5,17 @@ layout: project
 date: 2012-07-26 18:43:48
 featured_image: /img/2014/07/ACA_rendering-005.jpg
 
-project: "Andy's Candy Apothecary"
-status: "Built"
-location: "Sacramento, CA"
-size: "1,130 sf"
-collaborators: "Ryan Lippman – MarketOne Builders"
+specs:
+  - key: project
+    value: "Andy's Candy Apothecary"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Sacramento, CA"
+  - key: size
+    value: "1,130 sf"
+  - key: collaborators
+    value: "Ryan Lippman – MarketOne Builders"
 
 gallery:
   - /img/2014/07/ACA_rendering-005.jpg

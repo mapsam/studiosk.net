@@ -5,12 +5,19 @@ layout: project
 date: 2007-07-30 23:28:08
 featured_image: /img/2002/01/malibu-featured2.jpg
 
-project: "Malibu Residence"
-status: "Built"
-location: "Malibu, CA"
-size: "3,000 sf"
-firm: "Mark Dziewulski Architect"
-role: "Lead Designer/Project Manager"
+specs:
+  - key: project
+    value: "Malibu Residence"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Malibu, CA"
+  - key: size
+    value: "3,000 sf"
+  - key: firm
+    value: "Mark Dziewulski Architect"
+  - key: role
+    value: "Lead Designer/Project Manager"
 
 gallery:
   - /img/2015/01/malibu-1.jpg

@@ -5,10 +5,15 @@ layout: project
 date: 2011-07-26 16:59:27
 featured_image: /img/2013/10/7.jpg
 
-project: "Corte Madera Residence"
-location: "Corte Madera, CA"
-status: "in construction"
-size: "4,000 sf"
+specs:
+  - key: project
+    value: "Corte Madera Residence"
+  - key: location
+    value: "Corte Madera, CA"
+  - key: status
+    value: "in construction"
+  - key: size
+    value: "4,000 sf"
 
 gallery:
   - /img/2014/07/cm_002.jpg

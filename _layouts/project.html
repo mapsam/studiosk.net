@@ -16,10 +16,9 @@ layout: default
 
 <div class="single-project-info">
   <ul class="project-specs">
-    <li><strong>Project: </strong>{{page.project}}</li>
-    <li><strong>Location: </strong>{{page.location}}</li>
-    <li><strong>Status: </strong>{{page.status}}</li>
-    <li><strong>Size: </strong>{{page.size}}</li>
+    {% for spec in page.specs %}
+    <li><span class="spec-key">{{spec.key}}:</span> {{spec.value}}</li>
+    {% endfor %}
   </ul>
 </div>
 

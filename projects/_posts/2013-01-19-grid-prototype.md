@@ -5,10 +5,15 @@ layout: project
 date: 2013-01-19 00:00:31
 featured_image: /img/2014/11/OGP-featured.jpg
 
-project: "Off Grid Prototype"
-status: "Design Development"
-location: "Sonoma, CA + Anywhere"
-size: "1,800 sf"
+specs:
+  - key: project
+    value: "Off Grid Prototype"
+  - key: status
+    value: "Design Development"
+  - key: location
+    value: "Sonoma, CA + Anywhere"
+  - key: size
+    value: "1,800 sf"
 
 gallery:
   - /img/2014/11/OGP-01_elevation.jpg
@@ -19,7 +24,7 @@ gallery:
   - /img/2014/11/OGP-02_plan.jpg
 ---
 
-A prototype for a prefabricated off the grid house. 
+A prototype for a prefabricated off the grid house.
 
 Conceived as three distinct modular “pavilions” under one monolithic roof, the structure seeks to maximize solar position, openness to the outdoors and to provide privacy for inhabitants when desired.
 

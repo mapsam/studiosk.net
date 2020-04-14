@@ -5,11 +5,17 @@ layout: project
 date: 2015-07-12 22:05:29
 featured_image: /img/2015/07/featured.jpg
 
-project: "Native Juice Company"
-status: "Built"
-location: "San Francisco, CA"
-size: "1,600 sf"
-photography: "<a href='http://anisephoto.com/' target='_blank'>Anise LeAnn Photography</a>"
+specs:
+  - key: project
+    value: "Native Juice Company"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "San Francisco, CA"
+  - key: size
+    value: "1,600 sf"
+  - key: photography
+    value: "<a href='http://anisephoto.com/' target='_blank'>Anise LeAnn Photography</a>"
 
 gallery:
   - /img/2015/07/0-Native-168Sutter-2016-1.jpg

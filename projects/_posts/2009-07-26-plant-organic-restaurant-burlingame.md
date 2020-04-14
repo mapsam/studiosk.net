@@ -5,11 +5,17 @@ layout: project
 date: 2009-07-26 18:46:10
 featured_image: /img/2009/07/taiyo-plant-featured.jpg
 
-project: "Plant Organic"
-status: "Built"
-location: "Burlingame, CA"
-size: "3,000 sf"
-collaborators: "Nori Kanda (AOR), Joe Yick – Kitchen Consultant, Luminesce – Lighting Design, Noor Adabachi – Woodworking, Ray Tong – Pacific General Construction"
+specs:
+  - key: project
+    value: "Plant Organic"
+  - key: status
+    value: "Built"
+  - key: location
+    value: "Burlingame, CA"
+  - key: size
+    value: "3,000 sf"
+  - key: collaborators
+    value: "Nori Kanda (AOR), Joe Yick – Kitchen Consultant, Luminesce – Lighting Design, Noor Adabachi – Woodworking, Ray Tong – Pacific General Construction"
 
 gallery:
   - /img/2013/06/9-TaiyoWatanabe-1Q5A5752.jpg
