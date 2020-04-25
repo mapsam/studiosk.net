@@ -2,7 +2,7 @@
 title: (MALIN + GOETZ)
 permalink: /projects/malin-goetz
 layout: project
-date: 2020-03-27 00:00:00
+date: 2020-01-10 00:00:00
 featured_image: /img/2020/04/malin_goetz_sf_featured.jpg
 
 gallery:

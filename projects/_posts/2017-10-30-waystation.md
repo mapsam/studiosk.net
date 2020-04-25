@@ -2,7 +2,7 @@
 title: Way Station
 permalink: /projects/waystation
 layout: project
-date: 2017-10-30 04:59:24
+date: 2020-01-07 04:59:24
 featured_image: /img/2017/10/featured_waystation.jpg
 
 specs:

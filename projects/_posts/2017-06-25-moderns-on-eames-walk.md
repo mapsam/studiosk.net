@@ -2,7 +2,7 @@
 title: Moderns On Eames Walk
 permalink: /projects/moderns-on-eames-walk
 layout: project
-date: 2017-06-25 17:44:23
+date: 2020-01-06 17:44:23
 featured_image: /img/2017/06/bd2-featured.jpg
 
 specs:
