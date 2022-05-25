@@ -16,8 +16,8 @@ specs:
     value: "60,000 sf"
   - key: team
     value: "Developer: Fulcrum Property, Contractor: Sunseri Associates; Structural: Harris and Sloan; Civil: PSOMAS; Landscape: Quadriga; Electrical: HCS Engineering, Inc.; Mechanical & Plumbing: Alexander Scheflo & Associates, Inc. Photography: 5K Photography"
-  - key: project website
-    value: "http://www.moderns-tbd.com/Moderns-on-Eames-Walk/"
+  - key: awards
+    value: "AIA East Bay Design Awards 2018, category Exceptional Residential: Merit Award. Sacramento Business Journal, Best Real estate Project 2018"
 
 gallery:
   - /img/2017/06/1Moderns-19-c.jpg
