@@ -6,6 +6,7 @@ content_class: projects
 
 <ul class="projects">
   {% for p in site.categories.projects %}
+  {% if p.hidden != true %}
   <li class="project" style="background-image:url('{{site.url}}{{p.featured_image}}')">
     <a href="{{site.url}}{{p.url}}">
       <div class="project-info">
@@ -13,5 +14,6 @@ content_class: projects
       </div>
     </a>
   </li>
+  {% endif %}
   {% endfor %}
 </ul>

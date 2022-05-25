@@ -13,6 +13,9 @@
     <meta property="og:description" content="studio skaggs kennedy" />
     <meta property="og:url" content="https://www.studiosk.net" />
     <meta property="og:site_name" content="studiosk" />
+    {% if page.hidden %}
+    <meta name=”robots” content=”noindex,nofollow”>
+    {% endif %}
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

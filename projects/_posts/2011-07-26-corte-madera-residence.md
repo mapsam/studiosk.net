@@ -4,6 +4,7 @@ permalink: /projects/corte-madera-residence
 layout: project
 date: 2011-07-26 16:59:27
 featured_image: /img/2013/10/7.jpg
+hidden: true
 
 specs:
   - key: project
