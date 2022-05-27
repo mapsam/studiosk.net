@@ -1,3 +1,15 @@
+## 2022-05-26
+
+Site
+
+* add swiper.js for new image slider options https://swiperjs.com/
+* add layouts/project2.html as a new layout for projects
+* increase text size by 1px
+
+Content
+
+* Add RMR content to /projects/rmr
+
 ## 2022-05-25
 
 Site

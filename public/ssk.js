@@ -11,6 +11,21 @@ jQuery(document).ready(function($){
     }
   });
 
+  // swiper.js
+  const swiper = new Swiper('.project-swiper', {
+    autoHeight: true,
+    loop: true,
+    effect: 'fade',
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    }
+  });
+
   ///////////////////////////////////
   // BANNER FUNCTIONS
   ///////////////////////////////////

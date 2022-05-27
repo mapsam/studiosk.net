@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+<div class="swiper project-swiper">
+  <div class="swiper-wrapper">
+    {% for im in page.gallery %}
+    <div class="swiper-slide">
+      <img src="{{site.url}}{{im}}">
+    </div>
+    {% endfor %}
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<div class="swiper-pagination project-swiper-pagination"></div>
+
+<div class="single-project-info">
+  <ul class="project-specs">
+    {% for spec in page.specs %}
+    <li><span class="spec-key">{{spec.key}}:</span> {{spec.value}}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="project-description">
+  {{page.content}}
+</div>

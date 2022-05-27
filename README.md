@@ -45,6 +45,18 @@ To convert them all with the border:
 convert *.jpg -resize 775x516 -background white -gravity center -extent 775x516 "name${prefix}_%02d.jpg"
 ```
 
+```bash
+# Convert all images to jpg in place
+mogrify -format jpg *.*
+
+# Remove all images that are not .jpg
+find . -type f ! -name '*.jpg' -delete
+
+# Resize images to maximum 1000w or 750h, aspect ratio preserved
+# https://imagemagick.org/script/command-line-processing.php#geometry
+mogrify -resize 1000x750 *.jpg
+```
+
 **News images**
 
 
