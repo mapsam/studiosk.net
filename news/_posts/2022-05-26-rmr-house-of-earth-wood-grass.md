@@ -7,4 +7,4 @@ link: /projects/rmr
 featured_image: /img/2022/rmr/web/09_RMR_Exterior_Pool_Side.jpg
 ---
 
-Finalist in the Concept / Unbuilt category, AIA East Bay Design Awards 2021 for the award category.
+Finalist in the Concept / Unbuilt category, AIA East Bay Design Awards 2021.
