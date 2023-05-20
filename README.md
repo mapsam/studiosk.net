@@ -1,6 +1,8 @@
 # studiosk.net
 
-Buildings & Stuff
+Source for studiosk.net. Built with Jekyll and GitHub Pages.
+
+> Studio Skaggs Kennedy is a Berkeley-based design practice for architecture and urbanism, licensed in California and Washington state. Maxine Skaggs Kennedy and Sean Kennedy founded their studio 5 years ago with a combined 30 years of experience with the built environment. The practice is run as a studio in which study, research and collaboration are vitally important to the approach of design. Design is seen as a vigorous interaction with place at all scales and with all disciplines.
 
 ### Developing
 
@@ -10,59 +12,17 @@ jekyll serve --watch
 
 ### Image resizing
 
-**Gallery images**
+All image resizing commands use Image Magick. Project page images can all be resized to fit within a 1000x750 bounds. This command does not change the aspect ratio of any images. News section photos use the same size.
 
-Example command resizing all JPG in a directory and renaming with the project name and the image number (in processing order).
-
-```
-magick *.jpg -resize 12% "malin_goetz_sf${prefix}_%02d.jpg"
+```sh
+mogrify -resize 1000x750 -path ../web *.jpg
 ```
 
-Resulting files look like this:
+Featured images (on https://studiosk.net/projects) should be slightly smaller and only be 750x wide.
 
-```
-malin_goetz_sf_00.jpg
-malin_goetz_sf_01.jpg
-malin_goetz_sf_02.jpg
-malin_goetz_sf_03.jpg
-malin_goetz_sf_04.jpg
-malin_goetz_sf_05.jpg
-malin_goetz_sf_06.jpg
-malin_goetz_sf_07.jpg
-malin_goetz_sf_08.jpg
-malin_goetz_sf_09.jpg
-malin_goetz_sf_10.jpg
+```sh
+magick convert in.jpg -resize 750x featured.jpg
 ```
 
-Gallery images also may need a white boarder if the aspect ratio is not already set to 775x516. The following command keeps the ratio and adds a white border to the top/bottom left/right while keeping the image gravity in the center.
-
-```
-convert input.jpg -resize 775x516 -background white -gravity center -extent 775x516 output.jpg
-```
-
-To convert them all with the border:
-
-```
-convert *.jpg -resize 775x516 -background white -gravity center -extent 775x516 "name${prefix}_%02d.jpg"
-```
-
-```bash
-# Convert all images to jpg in place
-mogrify -format jpg *.*
-
-# Remove all images that are not .jpg
-find . -type f ! -name '*.jpg' -delete
-
-# Resize images to maximum 1000w or 750h, aspect ratio preserved
-# https://imagemagick.org/script/command-line-processing.php#geometry
-mogrify -resize 1000x750 *.jpg
-```
-
-**News images**
-
-News images are the same size as project images. You can use a project image directly in the news section.
-
-
-**Featured image**
-
-This image is smaller and lives in the /projects block page.
+* [magick convert](https://imagemagick.org/script/convert.php)
+* [magick mogrify](https://imagemagick.org/script/mogrify.php)
