@@ -17,7 +17,9 @@ jekyll serve --watch
 All image resizing commands use Image Magick. Project page images can all be resized to fit within a 1000x750 bounds. This command does not change the aspect ratio of any images. News section photos use the same size.
 
 ```sh
-mogrify -resize 1000x750 -path ../web *.jpg
+cd /path/to/images
+mkdir web
+magick mogrify -resize 1000x750 -path ./web *.jpg
 ```
 
 Featured images (on https://studiosk.net/projects) should be slightly smaller and only be 750x wide.
