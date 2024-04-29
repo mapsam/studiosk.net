@@ -1,5 +1,7 @@
 ---
-title: (MALIN + GOETZ) CHESTNUT ST
+title: |
+  (MALIN + GOETZ)
+  CHESTNUT ST
 permalink: /projects/malin-goetz-chestnut
 layout: project2
 date: 2024-04-23 00:00:00

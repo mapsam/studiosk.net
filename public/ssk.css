@@ -344,6 +344,7 @@ section {
 	font-weight:400;
 	text-transform: uppercase;
 	letter-spacing:.15em;
+	white-space: pre-line;
 	/*font-size:.9em;*/
 }
 .project:hover .project-info {

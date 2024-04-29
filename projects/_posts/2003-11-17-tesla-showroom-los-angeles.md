@@ -1,5 +1,7 @@
 ---
-title: Tesla Showroom, Los Angeles
+title: |
+  Tesla Showroom, 
+  Los Angeles
 permalink: /projects/tesla-showroom-los-angeles
 layout: project
 date: 2003-11-17 00:20:54

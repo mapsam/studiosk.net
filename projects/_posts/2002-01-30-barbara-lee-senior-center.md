@@ -1,5 +1,7 @@
 ---
-title: Barbara Lee Senior Center
+title: |
+  Barbara Lee 
+  Senior Center
 permalink: /projects/barbara-lee-senior-center
 layout: project
 date: 2002-01-30 22:45:24

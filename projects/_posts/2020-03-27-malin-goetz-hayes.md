@@ -1,9 +1,11 @@
 ---
-title: (MALIN + GOETZ) HAYES VALLEY
+title: |
+  (MALIN + GOETZ)
+  HAYES VALLEY
 permalink: /projects/malin-goetz
 layout: project
 date: 2020-01-10 00:00:00
-featured_image: /img/2020/04/news.jpg
+featured_image: /img/2020/04/malin_goetz_sf_featured.jpg
 
 gallery:
   - /img/2020/04/malin_goetz_sf__10.jpg
