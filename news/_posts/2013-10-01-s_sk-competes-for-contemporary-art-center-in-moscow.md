@@ -3,7 +3,7 @@ title: s_sk competes for contemporary art center in Moscow
 permalink: /news/s_sk-competes-for-contemporary-art-center-in-moscow
 layout: post
 date: 2013-10-01 12:00:36
-link: /projects/national-center-for-contemporary-art/
+link: /projects/national-center-for-contemporary-art
 featured_image: /img/2013/10/NCCA_news.jpg
 ---
 

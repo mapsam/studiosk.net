@@ -3,7 +3,7 @@ title: Belle Haven Bikes 1st Unity Bike Ride
 permalink: /news/belle-haven-bikes-1st-unity-bike-ride
 layout: post
 date: 2014-07-26 19:21:19
-link: /projects/belle-haven-bike-workshop/
+link: /projects/belle-haven-bike-workshop
 featured_image: /img/2014/07/news_BG_unity-ride.jpg
 ---
 

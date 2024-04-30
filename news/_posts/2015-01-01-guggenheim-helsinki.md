@@ -3,7 +3,7 @@ title: Guggenheim Helsinki
 permalink: /news/guggenheim-helsinki
 layout: post
 date: 2015-01-01 01:32:10
-link: /projects/guggenheim-helsinki/
+link: /projects/guggenheim-helsinki
 featured_image: /img/2015/01/HELSINKI_1-night-market.jpg
 ---
 
