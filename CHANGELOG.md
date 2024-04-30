@@ -1,3 +1,9 @@
+## 2024-04-29
+
+Site
+
+* Update /projects page CSS to respect project title line breaks
+
 ## 2022-05-26
 
 Site
