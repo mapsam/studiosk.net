@@ -26,6 +26,39 @@ jQuery(document).ready(function($){
     }
   });
 
+  // masonry
+  $('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+  });
+
+  
+
+  const enlargeParent = $('.enlarge-image');
+  $('.enlarge').on('click', function() {
+    const imgSrc = $(this).attr('src');
+    const parent = $('.enlarge-image');
+    enlargeParent.find('img').attr('src', imgSrc);
+    enlargeParent.removeClass('hide');
+  });
+
+  enlargeParent.on('click', function() {
+    if (!enlargeParent.hasClass('hide')) {
+      enlargeParent.addClass('hide');
+    }
+  });
+
+  $('.enlarge-image--close-icon').on('click', function() {
+    enlargeParent.addClass('hide');
+  });
+
+  $(document).on('keydown', function(event) {
+    if (event.key == "Escape" && !enlargeParent.hasClass('hide')) {
+      enlargeParent.addClass('hide');
+    }
+  });
+
   ///////////////////////////////////
   // BANNER FUNCTIONS
   ///////////////////////////////////
