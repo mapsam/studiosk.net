@@ -11,9 +11,12 @@ featured_image: /img/2024/mgc/featured.jpg
 
 gallery:
   - url: /img/2024/mgc/1_TaiyoWatanabe_WA_9151-sml.jpg
+    portrait: true
   - url: /img/2024/mgc/2_TaiyoWatanabe_WA_9200-sml.jpg
   - url: /img/2024/mgc/3_TaiyoWatanabe_WA_9206-sml.jpg
+    portrait: true
   - url: /img/2024/mgc/4_TaiyoWatanabe_WA_9266-sml.jpg
+    portrait: true
   - url: /img/2024/mgc/5_TaiyoWatanabe_WA_9214-sml.jpg
   - url: /img/2024/mgc/6_TaiyoWatanabe_WA_9275-sml.jpg
 

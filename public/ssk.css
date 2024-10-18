@@ -54,6 +54,9 @@ body.attic_is_open { overflow:hidden; }
 	.projects .content-container { 
 		text-align: left; 
 	}
+	.wide .project-images .portrait {
+		max-width: 60%;
+	}
 }
 
 /* clearfix */

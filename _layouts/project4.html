@@ -18,7 +18,11 @@ layout: default
 
 <div class="project-images">
   {% for im in page.gallery %}
-    <img src="{{site.url}}{{im.url}}">
+    {% if im.portrait %}
+      <img src="{{site.url}}{{im.url}}" class="portrait">
+    {% else %}
+      <img src="{{site.url}}{{im.url}}">
+    {% endif %}
   {% endfor %}
 </div>
 
