@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+<div class="project-description">
+  {{page.content}}
+</div>
+
+<div class="single-project-info">
+  <ul class="project-specs">
+    {% for spec in page.specs %}
+    <li><span class="spec-key">{{spec.key}}:</span> {{spec.value}}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="project-images">
+  {% for im in page.gallery %}
+    <img src="{{site.url}}{{im.url}}">
+  {% endfor %}
+</div>
+
+<!-- 
+<div class="grid">
+  <div class="grid-sizer"></div>
+  {% for im in page.gallery %}
+  <div class="grid-item grid-item--width-{{im.width}} grid-item--height-{{im.height}}">
+    <img src="{{site.url}}{{im.url}}" class="enlarge" data="{{site.url}}{{im.url}}">
+  </div>
+  {% endfor %}
+</div>
+
+<div class="enlarge-image hide">
+  <p class="enlarge-image--close-icon"><i class="fa-solid fa-x fa-xl"></i></p>
+  <img src="">
+</div> -->

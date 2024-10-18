@@ -31,6 +31,10 @@ body.attic_is_open { overflow:hidden; }
 	max-width:100%;
 	text-align: center;
 }
+.project-images img {
+	display: block;
+	margin-top: 1em;
+}
 
 @media (min-width: 50em) {
 	.main { margin: 0; }
@@ -38,23 +42,31 @@ body.attic_is_open { overflow:hidden; }
 	.content-container {
 		padding:45px;
 		display:block;
-		max-width:775px;
+		max-width: 775px;
 	}
-	.projects .content-container { text-align: left; }
+	.wide .content-container {
+		max-width: 1400px;
+	}
+	.wide .project-description {
+		max-width: 775px;
+		margin-bottom: 2em;
+	}
+	.projects .content-container { 
+		text-align: left; 
+	}
 }
 
-
-.container {}
+/* clearfix */
 .cf:before,
 .cf:after {
-    content:" ";
-    display:table;
+	content:" ";
+	display:table;
 }
 .cf:after {
-    clear:both;
+	clear:both;
 }
 .cf {
-    *zoom:1;
+	zoom: 1;
 }
 
 /* * * * * * * * * * *
