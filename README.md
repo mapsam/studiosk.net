@@ -25,7 +25,7 @@ magick mogrify -resize 1000x750 -path ./web *.jpg
 Featured images (on https://studiosk.net/projects) should be slightly smaller and only be 750x wide.
 
 ```sh
-magick convert in.jpg -resize 750x featured.jpg
+magick in.jpg -resize 750x featured.jpg
 ```
 
 * [magick convert](https://imagemagick.org/script/convert.php)
