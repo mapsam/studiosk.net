@@ -1,6 +1,6 @@
 ---
 title: SMALL LOTS, BIG IMPACTS
-permalink: /news/nextspace-berkeley
+permalink: /news/small-lots-big-impacts
 layout: post
 date: 2025-06-03 00:00:00
 link: /projects/small-lots-big-impacts

@@ -3,16 +3,16 @@ title: Small Lots, Big Impacts
 permalink: /projects/small-lots-big-impacts
 layout: project2
 date: 2025-06-03 00:00:00
-featured_image: /img/2025/small-lots-big-impacts/featured.jpg
+featured_image: /img/2025/small-lots-big-impacts-v2/featured.jpg
 
 gallery:
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-7.jpg
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-1.jpg
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-2.jpg
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-3.jpg
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-4.jpg
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-5.jpg
-  - /img/2025/small-lots-big-impacts/small-lots-big-impacts-6.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots1_aerial.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots2_front_yard.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots3_diagram.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots4_section-plan.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots5_plans.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots6_path_view.jpg
+  - /img/2025/small-lots-big-impacts-v2/Small_Lots7_deck_view.jpg
 
 specs:
   - key: project
